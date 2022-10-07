@@ -16,3 +16,8 @@ Run in an editor did not have a chance to make this a bit more portable.
 Make sure both files exists on disk
 
 Before running set classLevel = N and sendEmails = true; // when ready to send the emails
+
+## TO DO 
+- Pass as arguments: class file and master pdf from the command line
+- Add send Copies as optional 
+- Add dry-run feature
