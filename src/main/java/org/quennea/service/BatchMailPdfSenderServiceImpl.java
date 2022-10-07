@@ -10,7 +10,7 @@ import java.util.List;
 
 public class BatchMailPdfSenderServiceImpl {
 
-    public void batchSendMail(List<Student> students) throws MessagingException, IOException {
+    public void batchSendMail(List<Student> students) {
         MailPdfSenderServiceImpl mailSender = new MailPdfSenderServiceImpl();
         MailSessionHandlerImpl sessionHandler = new MailSessionHandlerImpl();
 

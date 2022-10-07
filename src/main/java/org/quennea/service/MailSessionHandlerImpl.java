@@ -3,12 +3,11 @@ package org.quennea.service;
 import javax.mail.Authenticator;
 import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
-import java.io.IOException;
 import java.util.Properties;
 
 public class MailSessionHandlerImpl {
 
-    public Session getSession() throws IOException {
+    public Session getSession() {
         ApplicationConfigurationReaderImpl configReader = new ApplicationConfigurationReaderImpl();
         Properties props = configReader.read();
 
